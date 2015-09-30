@@ -44,3 +44,5 @@ Fizz
 Fizz
 Buzz
 """
+for x in range(1, 100):
+    if 
