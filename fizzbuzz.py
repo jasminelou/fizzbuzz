@@ -45,4 +45,5 @@ Fizz
 Buzz
 """
 for x in range(1, 100):
-    if 
+    if x%15=0
+        pi
