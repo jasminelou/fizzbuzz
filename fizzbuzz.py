@@ -54,4 +54,11 @@ f = int(fizz)
 b = int(buzz)
 
 for x in range(1, n+1):
-    print("x")
+    if x%(f*b) == 0:
+        print("FizzBuzz")
+    elif x%f == 0:
+        print("Fizz")
+    elif x%b == 0:
+        print("Buzz")
+    else:
+        print(x)
