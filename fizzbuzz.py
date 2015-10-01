@@ -49,5 +49,9 @@ numberofterms = input("How many numbers shall we print? ")
 fizz = input("For multiples of what numbers shall we print 'Fizz'? ")
 buzz = input("For multiples of what numbers shall we print 'Buzz'? ")
 
-for x in range(1, int(numberofterms)+1):
+n = int(numberofterms)
+f = int(fizz)
+b = int(buzz)
+
+for x in range(1, n)+1):
     print("x")
