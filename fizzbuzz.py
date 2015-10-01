@@ -44,6 +44,10 @@ Fizz
 Fizz
 Buzz
 """
-for x in range(1, 100):
-    if x%15=0
-        pi
+
+numberofterms = input("How many numbers shall we print? ")
+fizz = input("For multiples of what numbers shall we print 'Fizz'? ")
+buzz = input("For multiples of what numbers shall we print 'Buzz'? ")
+
+for x in range(1, int(numberofterms)+1):
+    print("x")
