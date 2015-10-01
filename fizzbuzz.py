@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Jasmine Lou
-Credit: n/a
+Credit: Dina
 
 Assignment:
 
