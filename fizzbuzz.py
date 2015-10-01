@@ -46,8 +46,8 @@ Buzz
 """
 
 numberofterms = input("How many numbers shall we print? ")
-fizz = input("For multiples of what numbers shall we print 'Fizz'? ")
-buzz = input("For multiples of what numbers shall we print 'Buzz'? ")
+fizz = input("For multiples of what number shall we print 'Fizz'? ")
+buzz = input("For multiples of what number shall we print 'Buzz'? ")
 
 n = int(numberofterms)
 f = int(fizz)
