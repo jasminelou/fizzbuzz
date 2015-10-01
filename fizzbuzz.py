@@ -56,9 +56,9 @@ b = int(buzz)
 for x in range(1, n+1):
     if x%(f*b) == 0:
         print("FizzBuzz")
-    elif x%f == 0:
+    elif x%f == 0 and x%(f*b) != 0:
         print("Fizz")
-    elif x%b == 0:
+    elif x%b == 0 and x%(f*b) != 0:
         print("Buzz")
     else:
         print(x)
